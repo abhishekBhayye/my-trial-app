@@ -1,5 +1,5 @@
 <template>
-    <div class="home">
+    <div class="home container-fluid">
         <p>Hello this is Home page</p>
     </div>
 </template>
