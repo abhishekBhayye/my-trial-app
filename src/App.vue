@@ -1,24 +1,17 @@
 <template>
-  <div class="d-flex">
-    <div class="row">
-    <div class="col-sm-2">
-
-    </div>
-    <div class="col-sm-10">
-      <HomeComponent />
-    </div>
-  </div>
-  </div>
-  
+  <div class="app-main w-100">
+    <NavigationComponent />
+    <router-view />
+  </div>  
 </template>
 
 <script>
-import HomeComponent from './components/Home.vue'
+import NavigationComponent from './components/Navigation.vue'
 
 export default {
   name: 'App',
   components: {
-    HomeComponent
+    NavigationComponent
   }
 }
 </script>
